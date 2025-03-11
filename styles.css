@@ -61,7 +61,7 @@ h1 {
     color: red;  /* Change the "Click for treasure!" text color to red */
 }
 
-/* Hover effect: Change text to red for "Click for treasure!" */
+/* Hover effect: Change the entire link text color to yellow when hovered */
 .treasure-link a:hover .treasure-text {
-    color: red; /* Keep the text red on hover */
+    color: yellow; /* Change text color to yellow on hover */
 }
