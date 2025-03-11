@@ -49,7 +49,8 @@ h1 {
 }
 
 .treasure-image {
-    width: 100px;  /* Adjust the size of the treasure chest image */
+    width: 130%;  /* Increase the size of the treasure chest image by 30% */
+    height: auto;  /* Maintain aspect ratio */
     margin-right: 10px;  /* Space between image and text */
 }
 
