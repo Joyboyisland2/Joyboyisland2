@@ -6,7 +6,7 @@ body {
     background-position: center;  /* Center the GIF */
     height: 100vh;  /* Ensure the body takes up the full viewport height */
     margin: 0;  /* Remove default margin */
-    color: red;  /* Change text color to red */
+    color: red;  /* Default text color (red) */
     text-align: center;  /* Center the text */
     display: flex;
     justify-content: center;
@@ -20,18 +20,18 @@ body {
     z-index: 1; /* Ensure the text is above the background */
 }
 
-/* Style for the large text */
+/* Style for the large text (PIRATE TREASURE!!!) */
 h1 {
     font-size: 5em;  /* Make the text large */
     font-family: 'Pirata One', cursive; /* Pirate-themed font */
-    color: yellow; /* Yellow color for the "PIRATE TREASURE!!!" text */
+    color: red; /* Change the "PIRATE TREASURE!!!" text color to red */
 }
 
 /* Style for the secret page text */
 .secret-page {
     font-size: 3em;  /* Make the text smaller but still big */
     font-family: 'Pirata One', cursive; /* Pirate font for secret text */
-    color: yellow;  /* Set the color to yellow */
+    color: yellow;  /* Set the color to yellow for the secret page text */
 }
 
 /* Styling for the treasure chest link and image */
@@ -39,6 +39,7 @@ h1 {
     margin-top: 20px; /* Space between the secret page text and treasure chest */
 }
 
+/* Style for the link text and image */
 .treasure-link a {
     text-decoration: none; /* Remove underline from the link */
     font-size: 1.5em; /* Size of the text */
@@ -57,10 +58,10 @@ h1 {
 /* Text next to treasure chest */
 .treasure-text {
     font-family: 'Pirata One', cursive; /* Same pirate font for the text */
-    color: yellow;  /* Make the text yellow */
+    color: red;  /* Change the "Click for treasure!" text color to red */
 }
 
-/* Hover effect: Change text to yellow */
+/* Hover effect: Change text to red for "Click for treasure!" */
 .treasure-link a:hover .treasure-text {
-    color: yellow; /* Change text color to yellow on hover */
+    color: red; /* Keep the text red on hover */
 }
