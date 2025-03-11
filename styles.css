@@ -6,7 +6,7 @@ body {
     background-position: top left;  /* Align the GIF to the top-left corner */
     height: 100vh;  /* Ensure the body takes up the full viewport height */
     margin: 0;  /* Remove default margin */
-    color: white;  /* Set text color for contrast */
+    color: red;  /* Change text color to red */
     text-align: center;  /* Center the text */
 }
 
