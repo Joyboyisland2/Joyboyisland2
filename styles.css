@@ -14,6 +14,7 @@ body {
     font-family: 'Pirata One', cursive; /* Set the default font */
 }
 
+/* Content Container */
 .content {
     position: relative;
     z-index: 1; /* Ensure the text is above the background */
@@ -31,4 +32,32 @@ h1 {
     font-size: 3em;  /* Make the text smaller but still big */
     font-family: 'Pirata One', cursive; /* Pirate font for secret text */
     color: yellow;  /* Set the color to yellow */
+}
+
+/* Styling for the treasure chest link and image */
+.treasure-link {
+    margin-top: 20px; /* Space between the secret page text and treasure chest */
+}
+
+.treasure-link a {
+    text-decoration: none; /* Remove underline from the link */
+    color: yellow;  /* Set the text color to yellow for the link */
+    font-size: 1.5em; /* Size of the text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.treasure-image {
+    width: 100px;  /* Adjust the size of the treasure chest image */
+    margin-right: 10px;  /* Space between image and text */
+}
+
+.treasure-text {
+    font-family: 'Pirata One', cursive; /* Same pirate font for the text */
+    color: yellow;  /* Make the text yellow */
+}
+
+.treasure-link a:hover .treasure-text {
+    color: red; /* Change text color to red on hover */
 }
