@@ -1,0 +1,17 @@
+/* Global Styles */
+body {
+    background-image: url('question-ezgif.com-video-to-gif-converter.gif');  /* Path to your GIF file */
+    background-size: auto;  /* Use auto to preserve the original size of the GIF */
+    background-position: center;  /* Center the background image */
+    background-attachment: fixed;  /* Keep the background fixed when scrolling */
+    background-repeat: repeat;  /* Allow the background to repeat */
+    height: 100vh;  /* Ensure the body takes up the full viewport height */
+    margin: 0;  /* Remove default margin */
+    color: white;  /* Set text color for contrast */
+    text-align: center;  /* Center the text */
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Ensure the text is above the background */
+}
